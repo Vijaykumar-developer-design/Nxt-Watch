@@ -1,0 +1,142 @@
+.banner-bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png ');
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+.banner-logo {
+  height: 50px;
+  width: 180px;
+}
+.cancel-div {
+  display: flex;
+  justify-content: space-between;
+}
+.cancel {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.get-btn {
+  background-color: inherit;
+  border: 2px solid #00306e;
+  padding: 10px;
+  color: #00306e;
+  font-weight: bold;
+}
+.para {
+  font-size: 25px;
+  color: #00306e;
+}
+.hide-banner {
+  display: none;
+}
+.home-bg {
+  width: 100%;
+}
+.input-search-div {
+  border-radius: 8px;
+  border: 2px solid gray;
+  display: flex;
+  align-items: center;
+  width: 40%;
+  padding: 2px;
+  margin-top: 15px;
+  background-color: inherit;
+  margin-left: 10px;
+}
+.search-input-el {
+  padding: 10px;
+  border: none;
+  outline: none;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: inherit;
+  color: gray;
+}
+.search-icon-btn {
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: #cccccc;
+}
+.videos-ul {
+  list-style: none;
+  margin-left: -40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-video {
+  width: 250px;
+  margin: 10px;
+}
+.video-img {
+  width: 100%;
+}
+.profile-img-url {
+  height: 60px;
+  width: 60px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+.video-lower {
+  display: flex;
+}
+.link-video {
+  text-decoration: none;
+  color: gray;
+}
+.failure-img {
+  height: 400px;
+
+  margin-top: 20px;
+}
+.failure-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%; */
+  width: 78vw;
+  height: 100vh;
+}
+.retry-btn {
+  background-color: #3b82f6;
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 120px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.empty-img {
+  height: 400px;
+}
+.empty-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 78vw;
+  height: 100vh;
+}
+.loader-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

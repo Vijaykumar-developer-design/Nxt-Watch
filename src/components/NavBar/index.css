@@ -1,0 +1,42 @@
+.nav-ul {
+  list-style: none;
+  margin-right: 10px;
+  width: 300px;
+  margin-left: -15px;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+.home {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.link {
+  text-decoration: none;
+}
+.social-img {
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+}
+.nav-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.social-container {
+  margin-left: 10px;
+}
+.display-white-trend {
+  background-color: #424242;
+  color: #ffffff;
+}
+.display-white-nav-head {
+  color: #ffffff;
+  text-decoration: none;
+}
+.change-icon-color {
+  color: orangered;
+}

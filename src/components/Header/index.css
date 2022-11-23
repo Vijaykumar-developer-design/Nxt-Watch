@@ -1,0 +1,74 @@
+.header-logo {
+  height: 50px;
+  width: 180px;
+  margin-left: 20px;
+}
+.header-ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.profile-img {
+  height: 50px;
+  width: 50px;
+}
+.nav-bg {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+.list-item {
+  margin-right: 20px;
+}
+.log-out-btn {
+  background-color: inherit;
+  border-radius: 8px;
+  border-color: #3b82f6;
+  color: #3b82f6;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.logout-div {
+  background-color: gray;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+.cancel-btn {
+  background-color: inherit;
+  border-radius: 8px;
+  border-color: #ffffff;
+  color: #ffffff;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+.confirm-btn {
+  background-color: #3b82f6;
+  border-radius: 8px;
+  border-color: #ffffff;
+  color: #ffffff;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+.pop-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.theme-btn {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
